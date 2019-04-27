@@ -2,8 +2,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
-
-struct pedido{
+struct pedido
+{
     char namePed[200];
     char CPF[200];
     char numPed[200];
@@ -288,7 +288,7 @@ void consultaCod (void) // CONSULTAR 1 CADASTRADO QUALQUER VIA CÓDIGO DADO POR U
 
     }
 } // FIM DA FUNÇÃO CONSULTAR
-void excluirCliente()  // EXCLUI CLIENTE
+void excluirCliente(void)  // EXCLUI CLIENTE
 {
     int cod, cont = 0;
     char resp;
